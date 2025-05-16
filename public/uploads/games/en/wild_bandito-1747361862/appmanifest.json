@@ -1,0 +1,42 @@
+{
+	"name": "Wild Bandito v2.0.1",
+	"short_name": "Wild Bandito v2.0.1",
+	"description": "\"Wild Bandito\" by SlotGen transports players to a vibrant Mexican desert setting, where they encounter fearless bandits and exhilarating gameplay. With dynamic reels and captivating symbols like sombreros, revolvers, and mysterious desert creatures, players are drawn into the thrill of a high-stakes adventure. The game’s visuals are bright and lively, capturing the wild, untamed atmosphere of the desert and the outlaw lifestyle. Features like free spins, multipliers, and unique wild symbols keep the excitement flowing, offering players numerous ways to win. \"Wild Bandito\" is perfect for those seeking an action-packed slot experience with a charming and thrilling desert twist.",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#000000",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-64.png",
+			"sizes": "64x64",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"screenshots": []
+}

@@ -1,0 +1,548 @@
+[id=tooltip] {
+        visibility: hidden;
+    }
+
+    div[data-descr]:focus+[id="tooltip"] {
+        visibility: visible;
+    }
+
+.gh_basic_sprite {
+        background-image: url(25.png);
+        background-repeat: no-repeat;
+        background-size: 162px 112px;
+        display: inline-block;
+        overflow: hidden
+    }
+
+    .gh_ic_nav_calendar {
+        background-position: -1px -1px;
+        height: 110px;
+        min-height: 110px;
+        min-width: 110px;
+        width: 110px
+    }
+
+    .gh_ic_nav_info_s {
+        background-position: -113px -1px;
+        height: 48px;
+        min-height: 48px;
+        min-width: 48px;
+        width: 48px
+    }
+
+    .symbol_atlas {
+        display: inline-block;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-image: url(20.png)
+    }
+
+
+
+    .history_img {
+        background-image: url(21.png);
+        background-repeat: no-repeat;
+        background-size: 964px 972px;
+        z-index: -1;
+        display: inline-block;
+        overflow: hidden
+    }
+
+    .history_img.bonus_multiplier {
+        background-position: -1px -1px;
+        height: 456px;
+        min-height: 456px;
+        min-width: 440px;
+        width: 440px
+    }
+
+    .history_img.bonus_reel {
+        background-position: -1px -459px;
+        height: 420px;
+        min-height: 420px;
+        min-width: 520px;
+        width: 520px
+    }
+
+    .history_img.main_multiplier {
+        background-position: -523px -423px;
+        height: 456px;
+        min-height: 456px;
+        min-width: 440px;
+        width: 440px
+    }
+
+    .history_img.main_reel {
+        background-position: -443px -1px;
+        height: 420px;
+        min-height: 420px;
+        min-width: 520px;
+        width: 520px
+    }
+
+    .history_img.multi_0 {
+        background-position: -1px -881px
+    }
+
+    .history_img.multi_0,
+    .history_img.multi_1 {
+        height: 90px;
+        min-height: 90px;
+        min-width: 70px;
+        width: 70px
+    }
+
+    .history_img.multi_1 {
+        background-position: -73px -881px
+    }
+
+    .history_img.multi_2 {
+        background-position: -145px -881px
+    }
+
+    .history_img.multi_2,
+    .history_img.multi_3 {
+        height: 90px;
+        min-height: 90px;
+        min-width: 70px;
+        width: 70px
+    }
+
+    .history_img.multi_3 {
+        background-position: -217px -881px
+    }
+
+    .history_img.multi_4 {
+        background-position: -289px -881px
+    }
+
+    .history_img.multi_4,
+    .history_img.multi_5 {
+        height: 90px;
+        min-height: 90px;
+        min-width: 70px;
+        width: 70px
+    }
+
+    .history_img.multi_5 {
+        background-position: -361px -881px
+    }
+
+    .history_img.multi_6 {
+        background-position: -433px -881px
+    }
+
+    .history_img.multi_6,
+    .history_img.multi_7 {
+        height: 90px;
+        min-height: 90px;
+        min-width: 70px;
+        width: 70px
+    }
+
+    .history_img.multi_7 {
+        background-position: -505px -881px
+    }
+
+    .history_img.multi_8 {
+        background-position: -577px -881px
+    }
+
+    .history_img.multi_8,
+    .history_img.multi_9 {
+        height: 90px;
+        min-height: 90px;
+        min-width: 70px;
+        width: 70px
+    }
+
+    .history_img.multi_9 {
+        background-position: -649px -881px
+    }
+
+    .history_img.multi_infinity {
+        background-position: -721px -881px
+    }
+
+    .history_img.multi_infinity,
+    .history_img.multi_x {
+        height: 90px;
+        min-height: 90px;
+        min-width: 70px;
+        width: 70px
+    }
+
+    .history_img.multi_x {
+        background-position: -793px -881px
+    }
+
+
+    .symbol_0_0 {
+        height: 167px;
+        width: 146px;
+        background-position: -151px 17px
+    }
+
+    .symbol_1_0 {
+        height: 177px;
+        width: 146px;
+        background-position: 0px 17px
+    }
+
+    .symbol_2_0 {
+        height: 140px;
+        width: 146px;
+        background-position: -297px 17px
+    }
+
+    .symbol_2_1 {
+        height: 140px;
+        width: 146px;
+        background-position: -300px 17px
+    }
+
+    .symbol_3_0 {
+        height: 140px;
+        width: 146px;
+        background-position: -457px 17px
+    }
+
+    .symbol_3_1 {
+        height: 140px;
+        width: 146px;
+        background-position: -457px 17px
+    }
+
+    .symbol_4_0 {
+        height: 140px;
+        width: 146px;
+        background-position: -602px 17px
+    }
+
+    .symbol_4_1 {
+        height: 140px;
+        width: 146px;
+        background-position: -602px 17px
+    }
+
+    .symbol_5_0 {
+        height: 140px;
+        width: 146px;
+        background-position: -740px 17px
+    }
+
+    .symbol_5_1 {
+        height: 140px;
+        width: 146px;
+        background-position: -740px 17px
+    }
+
+    .symbol_6_0 {
+        height: 140px;
+        width: 146px;
+        background-position: -866px 17px
+    }
+
+    .symbol_6_1 {
+        height: 140px;
+        width: 146px;
+        background-position: -866px 17px
+    }
+
+    .symbol_7_0 {
+        height: 140px;
+        width: 146px;
+        background-position: -984px 17px
+    }
+
+    .symbol_7_1 {
+        height: 140px;
+        width: 146px;
+        background-position: -984px 17px
+    }
+
+    .symbol_8_0 {
+        height: 140px;
+        width: 146px;
+        background-position: -1107px 17px
+    }
+
+    .symbol_8_1 {
+        height: 140px;
+        width: 146px;
+        background-position: -1107px 17px
+    }
+
+    .symbol_9_0 {
+        height: 140px;
+        width: 146px;
+        background-position: -1218px 17px
+    }
+
+    .symbol_9_1 {
+        height: 140px;
+        width: 146px;
+        background-position: -1218px 17px
+    }
+
+    .symbol_10_0 {
+        height: 140px;
+        width: 146px;
+        background-position: -1323px 17px
+    }
+
+    .symbol_10_1 {
+        height: 140px;
+        width: 146px;
+        background-position: -1323px 17px
+    }
+
+
+    .wh {
+        background-position: -1843px 7px;
+        height: 95px;
+        width: 95px
+    }
+
+
+    .mahjong_static_sprites {
+        background-image: url(20.png);
+        background-repeat: no-repeat;
+        display: inline-block;
+        overflow: hidden
+    }
+
+    .ball2 {
+        background-position: -1px -257px
+    }
+
+    .ball2,
+    .ball5 {
+        height: 186px;
+        width: 186px
+    }
+
+    .ball5 {
+        background-position: -1452px -1px
+    }
+
+    .bamboo2 {
+        background-position: -189px -257px
+    }
+
+    .bamboo2,
+    .bamboo5 {
+        height: 186px;
+        width: 186px
+    }
+
+    .bamboo5 {
+        background-position: -1640px -1px
+    }
+
+    .base_gold {
+        background-position: -1463px -7px;
+        height: 201px;
+        width: 201px
+    }
+
+    .base_gold_ingot {
+        background-position: -843px -204px;
+        height: 30px;
+        width: 36px
+    }
+
+    .base_white {
+        background-position: -1046px -1px;
+        height: 201px;
+        width: 201px
+    }
+
+    .bonus_top_b {
+        background-position: -1px -1px;
+        height: 126px;
+        width: 840px
+    }
+
+    .char8 {
+        background-position: -377px -257px
+    }
+
+    .char8,
+    .green {
+        height: 186px;
+        width: 186px
+    }
+
+    .green {
+        background-position: -565px -257px
+    }
+
+    .main_top_c {
+        background-position: -1px -129px;
+        height: 126px;
+        width: 840px
+    }
+
+    .multiplier_glow {
+        background-position: -1821px -345px;
+        height: 78px;
+        width: 112px
+    }
+
+    .multiplier_x10_grey {
+        background-position: -1828px -1px;
+        height: 84px;
+        width: 171px
+    }
+
+    .multiplier_x10_light {
+        background-position: -1129px -204px;
+        height: 84px;
+        width: 171px
+    }
+
+    .multiplier_x1_grey {
+        background-position: -1828px -87px;
+        height: 84px;
+        width: 171px
+    }
+
+    .multiplier_x1_light {
+        background-position: -1129px -290px;
+        height: 84px;
+        width: 171px
+    }
+
+    .multiplier_x2_grey {
+        background-position: -1302px -204px;
+        height: 84px;
+        width: 171px
+    }
+
+    .multiplier_x2_light {
+        background-position: -1302px -290px;
+        height: 84px;
+        width: 171px
+    }
+
+    .multiplier_x3_grey {
+        background-position: -1475px -189px;
+        height: 84px;
+        width: 171px
+    }
+
+    .multiplier_x3_light {
+        background-position: -1475px -275px;
+        height: 84px;
+        width: 171px
+    }
+
+    .multiplier_x4_grey {
+        background-position: -1475px -361px;
+        height: 84px;
+        width: 171px
+    }
+
+    .multiplier_x4_light {
+        background-position: -1648px -189px;
+        height: 84px;
+        width: 171px
+    }
+
+    .multiplier_x5_grey {
+        background-position: -1648px -275px;
+        height: 84px;
+        width: 171px
+    }
+
+    .multiplier_x5_light {
+        background-position: -1648px -361px;
+        height: 84px;
+        width: 171px
+    }
+
+    .multiplier_x6_grey {
+        background-position: -1828px -173px;
+        height: 84px;
+        width: 171px
+    }
+
+    .multiplier_x6_light {
+        background-position: -1821px -259px;
+        height: 84px;
+        width: 171px
+    }
+
+    .red {
+        background-position: -753px -257px;
+        height: 186px;
+        width: 186px
+    }
+
+    .scatter {
+        background-position: -1249px -1px;
+        height: 201px;
+        width: 201px
+    }
+
+    .white {
+        background-position: -941px -204px;
+        height: 186px;
+        width: 186px
+    }
+
+
+
+    .history_assets {
+        display: inline-block;
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-image: url(21.png)
+    }
+
+    .bg_bns {
+        background-position: -1px -1px
+    }
+
+    .bg_bns,
+    .bg_main,
+	.bg_free {
+        width: 802px;
+        height: 540px
+    }
+
+    .bg_main, 
+	.bg_free {
+        background-position: -422px 119px
+    }
+
+    .bg_mask {
+        width: 456px;
+        height: 540px;
+        background-position: -1px -1085px
+    }
+
+    .wh_c {
+        width: 134px;
+        height: 296px;
+        background-position: -204px -1610px
+    }
+
+    .wh_a {
+        width: 134px;
+        height: 160px;
+        background-position: -367px -1848px
+    }
+
+    .wh_b {
+        width: 134px;
+        height: 228px;
+        background-position: -366px -1615px
+    }
+
+    .wh_d {
+        width: 160px;
+        height: 366px;
+        background-position: -1px -1627px
+    }

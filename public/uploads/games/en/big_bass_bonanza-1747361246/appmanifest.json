@@ -1,0 +1,42 @@
+{
+	"name": "Big Bass Bonanza",
+	"short_name": "Big Bass Bonanza",
+	"description": "Slotgen's fishing-themed casino slot game immerses players in an exciting underwater adventure, combining the thrill of casino gaming with a vibrant aquatic world. Players cast their virtual lines into a sea teeming with colorful fish, treasures, and bonus features. The reels are adorned with symbols like fishing rods, boats, and a variety of fish species, each offering different payouts. With stunning graphics and engaging sound effects, the game captures the serene yet adventurous spirit of fishing, while offering players the chance to win big with multipliers, free spins, and exciting bonus rounds.",
+	"start_url": "index.html",
+	"display": "fullscreen",
+	"orientation": "any",
+	"background_color": "#ffffff",
+	"icons": [
+		{
+			"src": "icons/icon-16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-64.png",
+			"sizes": "64x64",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		},
+		{
+			"src": "icons/icon-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"screenshots": []
+}
