@@ -1,0 +1,22 @@
+{
+    "agent": [
+        {
+            "api": "https:\/\/gateofolympus1000.slotgen.com\/api\/seamless\/wallet",
+            "token": "botiqjk123",
+            "currency": "IDR",
+            "home_url": "0"
+        },
+        {
+            "api": "http:\/\/swiftplay.api.mickey88indo.com\/api\/seamless\/wallet",
+            "token": "czcGf6VnXF",
+            "currency": "IDR",
+            "home_url": "https:\/\/mickey88indo.com\/"
+        },
+        {
+            "api": "http:\/\/swiftplay.api.mickey88indo.com\/api\/seamless\/wallet",
+            "token": "Adj903FTyL",
+            "currency": "IDR",
+            "home_url": "kjjkkk"
+        }
+    ]
+}
